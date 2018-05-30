@@ -1,9 +1,7 @@
 package bitcamp.java106.pms.dao;
 
-import bitcamp.java106.pms.annotation.Component;
 import bitcamp.java106.pms.domain.Board;
 
-@Component
 public class BoardDao extends AbstractDao<Board> {
     
     public int indexOf(Object key) {
@@ -18,7 +16,6 @@ public class BoardDao extends AbstractDao<Board> {
     }
 }
 
-//ver 23 - @Component 애노테이션을 붙인다.
 //ver 22 - 추상 클래스 AbstractDao를 상속 받는다.
 //ver 19 - 우리 만든 ArrayList 대신 java.util.LinkedList를 사용하여 목록을 다룬다. 
 //ver 18 - ArrayList를 이용하여 인스턴스(의 주소) 목록을 다룬다. 
